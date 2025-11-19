@@ -1,0 +1,5 @@
+# Created at 2025-11-19T10:45:22.189
+Boot Manifest-JAR contains absolute paths in classpath 'D:\EazyBytes\microservices\section6\v2.1-spring-cloud-config_refresh\loans\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

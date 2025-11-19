@@ -20,15 +20,10 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-
-build:
-  version: "1.0"
-
-cards:
-  message: "Welcome to EazyBank cards related local APIs "
-  contactDetails:
-    name: "Dragos Lech - Developer"
-    email: "dragos@eazybank.com"
-  onCallSupport:
-    - (412) 419-3491
-    - (915) 382-1932
+  import:
+    config: "optional:configserver:http://localhost:8071"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
