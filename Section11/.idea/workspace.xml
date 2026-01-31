@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1628978e-3dbe-4f01-88c5-650ef7d61576" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Section10/.idea/Section10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section10/accounts/src/main/java/com/eazybytes/accounts/service/client/CardsFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section10/accounts/src/main/java/com/eazybytes/accounts/service/client/LoansFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section10/docker-compose/prod/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section10/docker-compose/prod/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section10/docker-compose/qa/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section10/docker-compose/qa/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section10/gatewayserver/src/main/java/com/eazybytes/gatewayserver/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section10/gatewayserver/src/main/java/com/eazybytes/gatewayserver/controller/FallbackController.java" afterDir="false" />
+    <list default="true" id="fbde7d7b-7e28-4250-aae1-772361f4a1f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docker-compose/observability/alloy/alloy-local-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/observability/loki/loki-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,85 +17,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
-  <component name="ProjectId" id="36jGgybKVKxPWuCfDHjENBhkrZ1" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="38mgiYvE0UCslnCaBX2kRlhSOWv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.AccountsApplication.executor": "Run",
-    "Application.ConfigserverApplication.executor": "Run",
-    "Application.EurekaserverApplication.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/OnlineCourses/EazyBytes/microservices/Section11"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AccountsApplication">
-    <configuration name="AccountsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eazybytes.accounts.AccountsApplication" />
-      <module name="accounts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eazybytes.accounts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eazybytes.configserver.ConfigserverApplication" />
-      <module name="configserver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eazybytes.configserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eazybytes.eurekaserver.EurekaserverApplication" />
-      <module name="eurekaserver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eazybytes.eurekaserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.AccountsApplication" />
-        <item itemvalue="Application.EurekaserverApplication" />
-        <item itemvalue="Application.ConfigserverApplication" />
-      </list>
-    </recent_temporary>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OnlineCourses\EazyBytes\microservices\Section11\docker-compose\observability\promtail" />
+    </key>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1628978e-3dbe-4f01-88c5-650ef7d61576" name="Changes" comment="" />
-      <created>1765512681665</created>
+      <changelist id="fbde7d7b-7e28-4250-aae1-772361f4a1f9" name="Changes" comment="" />
+      <created>1769410287666</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1765512681665</updated>
+      <updated>1769410287666</updated>
     </task>
     <servers />
   </component>
